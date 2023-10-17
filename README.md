@@ -1,3 +1,21 @@
+Fazer um relatório com a seguinte saída:
+
+ZPRODUTO_00 -> PRODUTO
+ZPRODUTO_00 -> DESCRIÇÃO 
+ZPRODUTO_00 -> PREÇO
+ZESTOQUE_00 -> ESTOQUE
+CALCULADO   -> VALOR TOTAL DO PRODUTO EM ESTOQUE (QUANT * VALOR)
+ZVENDAS_00  -> QUANTIDADE
+ZVENDAS_00  -> VALOR DA VENDA
+ZVENDAS_00  -> DATA
+ZVENDAS_00  -> HORA
+
+* Da tabela de vendas considerar a maior venda (venda com maior quantidade)
+
+
+00000001 Coca Colca             5,90      10      59,00   -- Nenhuma venda registrada --
+00000002 Presunto               2,50       5      12,50   10   25,00   16/10/2023  16:55
+00000003 Queijo                 3,80       0       0,00   -- Nenhuma venda registrada --
 
 
 ```abap
